@@ -12,7 +12,7 @@
  *  자료형 (논리 , 문자 , 숫자)
  *  논리 : boolean
  *  문자 : char , String
- *  숫자 : double, byte, int, long, float
+ *  숫자 : double, byte, int, long, float, short
  */
 
 public class Variable {
@@ -68,6 +68,25 @@ public class Variable {
 		name1 = "Hi Java";
 		System.out.println("name1(재사용) : " + name1);
 		
-		
+
+		// 변수 더하기		
+		int a = 10;
+		int b = 20;
+		// 더하기
+		System.out.println("더하기 : " + (a + b));
+
+		// 변수 연산(변수명 안에 숫자를 넣고 더하기 빼기 곱하기 나누기 넣기		
+		int number5 = 8;
+		int number6 = 9;
+		// 더하기
+		System.out.println("더하기 : " + (number5 + number6));
+		// 곱하기
+		System.out.println("곱하기 : " + (number5 * number6));
+		// 빼기
+		System.out.println("빼기 : " + (number5 - number6));
+		// 나누기
+		System.out.println("나누기 : " + (number6 / number5));
+		// 나머지
+		System.out.println("나머지 : " + (number6 % number5));
 	}
 }
