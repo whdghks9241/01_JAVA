@@ -22,7 +22,7 @@ public class HellowWorld {
 	 *   main : 자바가 시작하는 문법 규칙 class의 메인을 나타냄
 	 *   
 	 *   String[] args : String 문자열 , [] 배열을 뜻하고 , args라는 이름의 문자열 배열을 사용한다.
-	 *   메인함수에서 String[] args 생략할 수 없는 이유는 프로그램이 시작되는 부분이기 때문에 외부에서 값을 받을 수 있어야 하기 때문.
+	 *   메인함수에서 String[] args 생략할 수 없는 이유는 프로그램이 시작되는 부분이기 때문에 외부에서 값을 받을 수 있어야 하기 때문
 	 *   
 	 *    System.out.print() : 괄호안 내용을 단순히 출력.
 	 *    System.out.println() :줄바꿈 문자 포함돼서 출력 후 한 줄 띄워짐
@@ -38,6 +38,7 @@ public class HellowWorld {
 		System.out.print("일하는중");
 		System.out.println("		");
 		System.out.print("일 안하는중");
+		System.out.println("		");
 		
 	}
 }
